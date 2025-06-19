@@ -1,0 +1,14 @@
+name: "Custom CodeQL Config"
+
+languages: javascript
+
+paths-ignore:
+  - node_modules
+
+queries:
+  - uses: security-and-quality
+
+fileExtensions:
+  javascript:
+    - ".js"
+    - ".xsjs"
