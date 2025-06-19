@@ -4,6 +4,7 @@ function showPopover() {
     console.log(password);
     const popover = document.getElementById('popover');
     popover.style.display = 'block';
+    eval("2+2");
     setTimeout(() => {
         popover.style.display = 'none';
     }, 2000); // Hide popover after 2 seconds
